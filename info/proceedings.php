@@ -1,4 +1,6 @@
-<?php include "../includes/head.php"; ?>
+<?php 
+$pageTitle = 'Referater';
+include "../includes/head.php"; ?>
 
 
 <section id="main">

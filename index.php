@@ -1,4 +1,6 @@
-<?php include "includes/head.php"; ?>
+<?php 
+$pageTitle = 'Hjem';
+include "includes/head.php"; ?>
 
 
 <section id="main">

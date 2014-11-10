@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="/assets/css/style.css">
-	<title>Hjem - Magasinvegen Borettslag</title>
+	<title><?php echo $pageTitle ?> - Magasinvegen Borettslag</title>
 </head>
 <body>
 

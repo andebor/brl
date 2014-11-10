@@ -1,4 +1,6 @@
-<?php include "includes/head.php"; ?>
+<?php 
+$pageTitle = 'Sitemap';
+include "includes/head.php"; ?>
 
 
 <section id="main">

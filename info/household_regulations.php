@@ -1,4 +1,6 @@
-<?php include "../includes/head.php"; ?>
+<?php 
+$pageTitle = 'Husordensregler';
+include "../includes/head.php"; ?>
 
 
 <section id="main">
