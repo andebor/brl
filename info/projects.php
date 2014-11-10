@@ -2,7 +2,13 @@
 
 
 <section id="main">
-<h3>Prosjekter</h3>
+<h2>Prosjekter</h2>
+
+<h3>Pågående prosjektet</h3>
+
+
+<h3>Tidligere prosjekter</h3>
+
 </section>
 
 <?php include "../includes/foot.php"; ?>
