@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<housing_residents>
+  <building1 id="b1">
+    <residents>
+
+      <H0101 id="r1">
+        <person id="p1">
+          <name>Jan Jansen</name>
+          <phone>12345678</phone>
+          <email>jan@jansen.no</email>
+        </person>
+
+        <person id="p2">
+          <name>Eva Jansen</name>
+          <phone>87654321</phone>
+          <email>eva@jansen.no</email>
+        </person>
+      </H0101>
+
+      <H0102 id="r2">
+        <person id="p3">
+          <name>Per Persen</name>
+          <phone>32415364</phone>
+          <email>per@sen.no</email>
+        </person>
+      </H0102>
+
+      <H0201 id="r3">
+        <person id="p4">
+          <name></name>
+          <phone></phone>
+          <email></email>
+        </person>
+      </H0201>
+
+      <H0202 id="r4">
+        <person id="p5">
+          <name></name>
+          <phone></phone>
+          <email></email>
+        </person>
+      </H0202>
+
+    </residents>
+  </building1>
+
+  <building2 id="b2">
+    <residents>
+
+      <H0101 id="r5">
+        <person id="p6">
+          <name></name>
+          <phone></phone>
+          <email></email>
+        </person>
+      </H0101>
+
+      <H0102 id="r6">
+        <person id="p7">
+          <name></name>
+          <phone></phone>
+          <email></email>
+        </person>
+      </H0102>
+
+      <H0103 id="r7">
+        <person id="p8">
+          <name></name>
+          <phone></phone>
+          <email></email>
+        </person>
+      </H0103>
+
+      <H0104 id="r8">
+        <person id="p9">
+          <name></name>
+          <phone></phone>
+          <email></email>
+        </person>
+      </H0104>
+
+    </residents>
+  </building2>
+</housing_residents>
