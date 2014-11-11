@@ -15,7 +15,7 @@ include "../includes/head.php"; ?>
 
 	<h3>Kontaktskjema</h3>
 
-	<form action="" method="post" id="messageForm">
+	<form action="/contact/mail.php" method="post" id="messageForm">
 		<div class="field">
 			<label for="name">Navn <span class="required">*</span></label>
 			<input type="text" name="name" id="name" required>
@@ -33,7 +33,7 @@ include "../includes/head.php"; ?>
 		
 		<div class="field">
 			<label for="subject">Emne</label>
-			<input type="text" name="subject" id="subject">
+			<input type="text/plain" name="subject" id="subject">
 		</div>
 
 		<div class="field">
