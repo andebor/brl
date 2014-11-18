@@ -10,6 +10,15 @@ html {
   overflow-y: scroll;
 }
 
+/* Toolbox */
+.no-padding {
+  padding: 0 !important;
+}
+
+.padding {
+  padding: 15px 20px !important;
+}
+
 
 /* Grid system */
 .row:after {
@@ -71,8 +80,17 @@ a[href]:hover {
   color: #888;
 }
 
-#main ul {
+#main ul,
+#main ol {
   padding-left: 20px;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* HEADER */
@@ -137,6 +155,12 @@ nav .fa-chevron-down {
     background-color: whitesmoke;
     padding: 10px 15px;
     border-bottom: 1px solid #b3b2b2;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 /* FORM ELEMENTS */
