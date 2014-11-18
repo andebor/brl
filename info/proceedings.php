@@ -1,8 +1,8 @@
-<?php 
+<?php
 $pageTitle = 'Referater';
 include "../includes/head.php"; ?>
 
-
+<div class="pagewrap panel">
 <section id="main">
 	<h2>Referater</h2>
 
@@ -25,5 +25,6 @@ include "../includes/head.php"; ?>
 		<li><a href="#">Anbud</a></li>
 	</ul>
 </section>
+</div>
 
 <?php include "../includes/foot.php"; ?>

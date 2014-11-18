@@ -71,6 +71,10 @@ a[href]:hover {
   color: #888;
 }
 
+#main ul {
+  padding-left: 20px;
+}
+
 /* HEADER */
 header {
   background-color: white;
@@ -144,7 +148,8 @@ label {
 }
 
 textarea,
-input[type=text] {
+input[type=text],
+input[type=email] {
   padding: 5px 10px;
   margin-bottom: 8px;
   border: 1px solid #ddd;
@@ -155,7 +160,8 @@ input[type=text] {
 }
 
 textarea:focus,
-input[type=text]:focus {
+input[type=text]:focus,
+input[type=email]:focus {
   border-color: #53aded;
 }
 
@@ -174,6 +180,7 @@ input[type=text]:focus {
   color: #fff;
   font-size: 1.1em;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
   text-shadow: 0 1px 0 rgba(0,0,0, 0.3);
   text-decoration: none;
   letter-spacing: 1px;
@@ -279,7 +286,7 @@ input[type=submit].button {
 }
 
 .dropdown-menu .dropdown-item:hover {
-  background-color: whitesmoke;
+  background-color: #fafafa;
 }
 
 .dropdown-menu .icon:before {

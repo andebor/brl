@@ -1,8 +1,8 @@
-<?php 
+<?php
 $pageTitle = 'Kontakt';
 include "../includes/head.php"; ?>
 
-
+<div class="pagewrap panel">
 <section id="main">
 
 	<h2>Kontakt</h2>
@@ -30,10 +30,10 @@ include "../includes/head.php"; ?>
 			<label for="phone">Telefon</label>
 			<input type="text" name="phone" id="phone">
 		</div>
-		
+
 		<div class="field">
 			<label for="subject">Emne</label>
-			<input type="text/plain" name="subject" id="subject">
+			<input type="text" name="subject" id="subject">
 		</div>
 
 		<div class="field">
@@ -44,5 +44,6 @@ include "../includes/head.php"; ?>
 	</form>
 
 </section>
+</div>
 
 <?php include "../includes/foot.php"; ?>

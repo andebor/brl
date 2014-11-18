@@ -1,8 +1,8 @@
-<?php 
+<?php
 $pageTitle = 'Vaskeliste';
 include "../includes/head.php"; ?>
 
-
+<div class="pagewrap panel">
 <section id="main">
 
 	<h2>Vaskeliste</h2>
@@ -82,5 +82,6 @@ include "../includes/head.php"; ?>
 	</table>
 
 </section>
+</div>
 
 <?php include "../includes/foot.php"; ?>

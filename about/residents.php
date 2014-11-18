@@ -1,14 +1,13 @@
-<?php 
+<?php
 $pageTitle = 'Beboere';
 include "../includes/head.php"; ?>
 
-
+<div class="pagewrap panel">
 <section id="main">
-
 	<h2>Beboere</h2>
-	
+
 	<h3>Magasinvegen 3</h3>
-	<table class="residentsTable">
+	<table class="table residentsTable">
 		<tr>
 			<td>H0101</td>
 			<td>Jan Jansen</td>
@@ -28,7 +27,7 @@ include "../includes/head.php"; ?>
 	</table>
 
 	<h3>Magasinvegen 5</h3>
-	<table class="residentsTable">
+	<table class="table residentsTable">
 		<tr>
 			<td>H0101</td>
 			<td>Jan Jansen</td>
@@ -48,5 +47,6 @@ include "../includes/head.php"; ?>
 	</table>
 
 </section>
+</div>
 
 <?php include "../includes/foot.php"; ?>

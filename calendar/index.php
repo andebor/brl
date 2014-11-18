@@ -1,8 +1,8 @@
-<?php 
+<?php
 $pageTitle = 'Kalender';
 include "../includes/head.php"; ?>
 
-
+<div class="pagewrap panel">
 <section id="main">
 <h3>Kalender</h3>
 
@@ -25,5 +25,6 @@ include "../includes/head.php"; ?>
     <li>17. eius fabellas recteque ius cu</li>
 </ul>
 </section>
+</div>
 
 <?php include "../includes/foot.php"; ?>

@@ -1,8 +1,8 @@
-<?php 
+<?php
 $pageTitle = 'Prosjekter';
 include "../includes/head.php"; ?>
 
-
+<div class="pagewrap panel">
 <section id="main">
 <h2>Prosjekter</h2>
 
@@ -12,5 +12,6 @@ include "../includes/head.php"; ?>
 <h3>Tidligere prosjekter</h3>
 
 </section>
+</div>
 
 <?php include "../includes/foot.php"; ?>
