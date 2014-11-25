@@ -14,7 +14,7 @@ else
   {// code for IE6, IE5
   var xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
   }
-xmlhttp.open("GET","residents2.xml",false);
+xmlhttp.open("GET","residents.xml",false);
 xmlhttp.send();
 console.log(xmlhttp);
 var xmlDoc=xmlhttp.responseXML;
