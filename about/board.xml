@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<board>
+
+    <member>
+        <position>Kontaktperson</position>
+        <name>Anders Borud</name>
+    </member>
+
+    <member>
+        <position>Leder</position>
+        <name>John-Kåre Røste</name>
+    </member>
+
+    <member>
+        <position>Nestleder</position>
+        <name>Tage Johnsen</name>
+    </member>
+
+    <member>
+        <position>Styremedlem</position>
+        <name>Eldbjørg Hansen</name>
+    </member>
+
+    <member>
+        <position>Varamedlem</position>
+        <name>Frode Olsen</name>
+    </member>
+
+    <member>
+        <position>Varamedlem</position>
+        <name>Andreas Samdal</name>
+    </member>
+
+</board>

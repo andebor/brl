@@ -5,6 +5,8 @@ include "../includes/head.php"; ?>
 <div class="pagewrap panel">
 <section id="main">
 
+<h2>Beboere</h2>
+
 <script>
 if (window.XMLHttpRequest)
   {// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -20,7 +22,7 @@ console.log(xmlhttp);
 var xmlDoc=xmlhttp.responseXML;
 console.log(xmlDoc); 
 
-document.write('<table class="table residentsTable"><tr><th>Navn</th><th>Tlf</th><th>Mail</th><th>Bygg</th><th>Leilighet</></tr>');
+document.write('<table class="table residentsTable"><tr><th>Navn</th><th>Tlf</th><th>Mail</th><th>Bygg</th><th>Leilighet</th></tr>');
 var x=xmlDoc.getElementsByTagName("person");
 for (i=0;i<x.length;i++)
   { 
