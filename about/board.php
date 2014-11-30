@@ -7,33 +7,77 @@ include "../includes/head.php"; ?>
     <section id="main" class="panel clearfix">
       <h2>Styremedlemmer</h2>
 
-      <script>
-      if (window.XMLHttpRequest)
-        {// code for IE7+, Firefox, Chrome, Opera, Safari
-        var xmlhttp=new XMLHttpRequest();
-        }
-      else
-        {// code for IE6, IE5
-        var xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-        }
-      xmlhttp.open("GET","board.xml",false);
-      xmlhttp.send();
-      console.log(xmlhttp);
-      var xmlDoc=xmlhttp.responseXML;
-      console.log(xmlDoc);
+      <div class="card">
+        <div class="content">
+          <div class="cardface front">
+              <h2>Anders Borud</h2>
+              <img src="/assets/img/anders.jpg" alt="Bilde av borettslaget">
+            <i class="flip-button flip-open fa fa-info-circle"></i>
+          </div>
+          <div class="cardface back">
+            <h2>Anders Borud</h2>
+            <h3>Leder</h3>
+            <p>
+              <i class="fa fa-phone"></i><br>
+              (+47) 952 25 778
+            </p>
+            <p>
+              <i class="fa fa-envelope"></i><br>
+              anders@borud.no
+            </p>
 
-      document.write('<table class="boardTable"><tr><th>Stilling</th><th>Navn</th></tr>');
-      var x=xmlDoc.getElementsByTagName("member");
-      for (i=0;i<x.length;i++)
-        {
-        document.write("<tr><td>");
-        document.write(x[i].getElementsByTagName("position")[0].childNodes[0].nodeValue);
-        document.write("</td><td>");
-        document.write(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
-        document.write("</td></tr>");
-        }
-      document.write("</table>");
-      </script>
+            <i class="flip-button close fa fa-remove"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="cardface front">
+              <h2>Andreas Røyrvik</h2>
+              <img src="/assets/img/andreas.jpg" alt="Bilde av borettslaget">
+            <i class="flip-button flip-open fa fa-info-circle"></i>
+          </div>
+          <div class="cardface back">
+            <h2>Andreas Røyrvik</h2>
+            <h3>Nestleder</h3>
+            <p>
+              <i class="fa fa-phone"></i><br>
+              (+47) 815 493 00
+            </p>
+            <p>
+              <i class="fa fa-envelope"></i><br>
+              andreas@royrvik.org
+            </p>
+
+            <i class="flip-button close fa fa-remove"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="cardface front">
+              <h2>Kenneth Solstad</h2>
+              <img src="/assets/img/kenneth.jpg" alt="Bilde av borettslaget">
+            <i class="flip-button flip-open fa fa-info-circle"></i>
+          </div>
+          <div class="cardface back">
+            <h2>Kenneth Solstad</h2>
+            <h3>Kontaktperson</h3>
+            <p>
+              <i class="fa fa-phone"></i><br>
+              (+47) 920 649 67
+            </p>
+            <p>
+              <i class="fa fa-envelope"></i><br>
+              kenneth@solstad.no
+            </p>
+
+            <i class="flip-button close fa fa-remove"></i>
+          </div>
+        </div>
+      </div>
 
       <div class="card">
         <div class="content">
@@ -52,6 +96,54 @@ include "../includes/head.php"; ?>
             <p>
               <i class="fa fa-envelope"></i><br>
               morten@noddeland.no
+            </p>
+
+            <i class="flip-button close fa fa-remove"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="cardface front">
+              <h2>Frode Olsen</h2>
+              <img src="/assets/img/extra1.jpg" alt="Bilde av borettslaget">
+            <i class="flip-button flip-open fa fa-info-circle"></i>
+          </div>
+          <div class="cardface back">
+            <h2>Frode Olsen</h2>
+            <h3>Varamedlem</h3>
+            <p>
+              <i class="fa fa-phone"></i><br>
+              (+47) 12 34 56 78
+            </p>
+            <p>
+              <i class="fa fa-envelope"></i><br>
+              frode@olsen.biz
+            </p>
+
+            <i class="flip-button close fa fa-remove"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="cardface front">
+              <h2>Jenny Johnsen</h2>
+              <img src="/assets/img/extra2.jpg" alt="Bilde av borettslaget">
+            <i class="flip-button flip-open fa fa-info-circle"></i>
+          </div>
+          <div class="cardface back">
+            <h2>Jenny Johnsen</h2>
+            <h3>Varamedlem</h3>
+            <p>
+              <i class="fa fa-phone"></i><br>
+              (+47) 12 34 56 78
+            </p>
+            <p>
+              <i class="fa fa-envelope"></i><br>
+              name@example.com
             </p>
 
             <i class="flip-button close fa fa-remove"></i>
