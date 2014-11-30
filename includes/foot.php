@@ -1,7 +1,11 @@
 		<footer>
 			<div class="pagewrap">
 				<a href="/sitemap.php">Sidekart</a>
-				<small>© Copyright 2014, Magasinvegen Borettslag</small>
+				<small>
+					© Copyright
+					<script>document.write(new Date().getFullYear())</script>,
+					Magasinvegen Borettslag
+				</small>
 			</div>
 		</footer>
 
