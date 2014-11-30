@@ -1,11 +1,11 @@
 Magasinvegen Borettslag
 =======================
 
-End project for IT2805
+End project for IT2805. The website can be seen in action at magasinvegen.andersborud.com.
 
 ###To run the project:
 
-  php -S localhost:8000 -t brl/
+  php -S localhost:8000 -t .
 
 ##Technologies:
 
@@ -20,18 +20,35 @@ End project for IT2805
 
 ###1. HTML5
 
-HTML5 is used to structure our web site.
+HTML5 is used to structure our web site. 
+
+We use several HTML5 specific tags, such as "nav", "section" and "aside" as they are semantically better than just using divs.
 
 ###2. CSS3
 
 CSS3 is used to style the HTML code so that our site looks more appealing as
 well as it make it more user friendly.
 
+Examples of use:
+- Site structure (by making a grid system)
+- Basic sitewide styling
+- Style form elements in /contact/
+- Style and CSS animation on "flip cards" in /about/board.php and 
+- 
+
+The styling of the "cards" used in /about/board.php was split into a separate file due to file length.
+
 ###3. JavaScript
 
 JavaScript is used to manipulate the HTML code in our project. E.g. to make the
-drop-down lists in the navigation bar interactive. The drop-down lists
-extends/open when they are clicked.
+drop-down lists in the navigation bar interactive. 
+
+Examples of use:
+- The dropdown lists in the navigation menu expands when clicked
+- In /about/board.php there are portraits of the board members. By clicking the "info" button, the image will flip around, and the members contact info will be shown.
+- The current year is displayed in the footer
+
+We have used the [module pattern](http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html) to organize our javascript. If we were to expand the codebase in the future, this will help keep the code readable.
 
 ###4. PHP
 
@@ -39,29 +56,33 @@ PHP is a server side scripting language for hosting web pages.
 The way PHP works is that it renders the HTML files so that they are viewed
 just as if you would open them normally.
 
+The main reason we use PHP in this project is so that we are able to include snippets of code, such as the header and footer instead of writing redundant code for each sub page.
+
 ###5. XML
 
-We have used XML to structure/describe the list of inhabitants and board members
-in the housing association. This makes it easy to store and change the data in a
-proper way compared to using HTML.
+We have used XML to structure/describe the list of inhabitants in the housing association. This makes it easy to store and change the data in a proper way compared to using HTML.
 
 ###6. jQuery
 
-We have used jQuery to change classes for some HTML code, to make the styling
-different when the drop-down lists are clicked.
+We use a moderate amount of jQuery in this project. This is done out of convenience, as some operations in vanilla javascript is unnecessarily difficult to do.
 
 ###7. Font Awesome
 
 Font Awesome is a CSS toolkit that allows us to use scalable vector icons in
-our web site. E.g. the house icon in the navigation bar. The icons are very easy
-to style with CSS and does not require the use of JavaScript. It also has lot
-of other features like compatibility with screen readers, infinite scalability
-(because the icons are vectors) and it now has a total of 479 icons.
+our web site. E.g. the house icon in the navigation bar. The icons are very easy to style with CSS and does not require the use of JavaScript. It also has lot of other features like compatibility with screen readers, infinite scalability (because the icons are vectors) and it now has a total of 479 icons.
 
 ###8. Google Fonts
 
 Google Font is a huge collection of open source web fonts. We have imported
 the Open Sans-family in to our project from Google Fonts.
+
+###9. Modernizr.js
+Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser. 
+
+We use this on the "flip cards" in the board member section. Ideally, we want to use CSS to animate the card flip, but not all browsers support this CSS functionality.
+
+To ensure that as many browsers as possible are supported, we detect if a users browser supports " CSS 3D transforms". If yes, we use CSS to animate card flip. If not supported, we use a javascript fallback.
+
 
 ##References
 

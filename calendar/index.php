@@ -9,7 +9,7 @@ include "../includes/head.php"; ?>
 
       <h4>Nov</h4>
       <ul>
-          <li>15. Dugnad før vintern</li>
+          <li>15. Dugnad før vinteren</li>
           <li>29. Julepynting</li>
       </ul>
 
