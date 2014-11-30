@@ -17,6 +17,7 @@ End project for IT2805. The website can be seen in action at magasinvegen.anders
 6. jQuery - a JavaScript library that makes it easier to use JavaScript.
 7. Font Awesome - for awesome scalable vector icons.
 8. Google Fonts - a huge collection of open source web fonts.
+9. Modernizr.js - A feature detection library
 
 ###1. HTML5
 
@@ -34,7 +35,6 @@ Examples of use:
 - Basic sitewide styling
 - Style form elements in /contact/
 - Style and CSS animation on "flip cards" in /about/board.php and 
-- 
 
 The styling of the "cards" used in /about/board.php was split into a separate file due to file length.
 
