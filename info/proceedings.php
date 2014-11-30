@@ -8,9 +8,9 @@ include "../includes/head.php"; ?>
 
 	<h3>Styrereferater</h3>
 	<ul>
+		<li><a href="#">Styrereferat november</a></li>
 		<li><a href="#">Styrereferat oktober</a></li>
-		<li><a href="#">Styrereferat oktober</a></li>
-		<li><a href="#">Styrereferat oktober</a></li>
+		<li><a href="#">Styrereferat september</a></li>
 	</ul>
 	<h3>Generalforsamling</h3>
 	<ul>
@@ -20,9 +20,9 @@ include "../includes/head.php"; ?>
 	</ul>
 	<h3>Annet</h3>
 	<ul>
-		<li><a href="#">Anbud</a></li>
-		<li><a href="#">Anbud</a></li>
-		<li><a href="#">Anbud</a></li>
+		<li><a href="#">Anbud nye uteboder</a></li>
+		<li><a href="#">Anbud brøyting</a></li>
+		<li><a href="#">Anbud parkeringsplasser</a></li>
 	</ul>
 </section>
 </div>

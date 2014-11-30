@@ -3,72 +3,72 @@
 <housing_residents>
 
         <person>
-          <name>Jan Jansen</name>
-          <phone>12345678</phone>
-          <email>jan@jansen.no</email>
+          <name>Jan Hansen</name>
+          <phone>978 64 672</phone>
+          <email>jan.hansen59@hotmail.com</email>
           <building>1</building>
           <appartement>H0101</appartement>
         </person>
 
         <person>
-          <name>Eva Jansen</name>
-          <phone>87654321</phone>
+          <name>John-Kåre Røste</name>
+          <phone>922 12 456</phone>
           <email>eva@jansen.no</email>
           <building>1</building>
           <appartement>H0101</appartement>
         </person>
 
         <person>
-          <name>Per Persen</name>
-          <phone>32415364</phone>
-          <email>per@sen.no</email>
+          <name>Per Berntsen</name>
+          <phone>959 47 836</phone>
+          <email>perberntsen@online.no</email>
           <building>1</building>
           <appartement>H0102</appartement>
         </person>
 
         <person>
           <name>Kjell Paulsen</name>
-          <phone>32415364</phone>
+          <phone>913 81 223</phone>
           <email>kjell@paulsen.no</email>
           <building>1</building>
           <appartement>H0201</appartement>
         </person>
 
         <person>
-          <name>Bjørn Bjørnsen</name>
-          <phone>32415364</phone>
-          <email>bjorn@bjornsen.no</email>
+          <name>Tage Johnsen</name>
+          <phone>436 78 456</phone>
+          <email>tagej@online.no</email>
           <building>1</building>
           <appartement>H0202</appartement>
         </person>
 
         <person>
-          <name>Kari Karsen</name>
-          <phone>32415364</phone>
-          <email>kari@karsen.no</email>
+          <name>Andreas Samdal</name>
+          <phone>953 68 212</phone>
+          <email>andreas.samdal@hotmail.com</email>
           <building>2</building>
           <appartement>H0101</appartement>
         </person>
 
         <person>
-          <name>Petra Persson</name>
-          <phone>32415364</phone>
-          <email>petra@persson.no</email>
+          <name>Frode Olsen</name>
+          <phone>464 62 812</phone>
+          <email>frodeol@gmail.com</email>
           <building>2</building>
           <appartement>H0102</appartement>
         </person>
 
         <person>
           <name>Oda Hansen</name>
-          <phone>32415364</phone>
-          <email>oda@hansen.no</email>
+          <phone>73 69 10 32</phone>
+          <email>odah76@gmail.com</email>
           <building>2</building>
           <appartement>H0103</appartement>
         </person>
 
         <person>
           <name>Heidi Berg</name>
-          <phone>32415364</phone>
+          <phone>987 36 582</phone>
           <email>heidi@berg.no</email>
           <building>2</building>
           <appartement>H0104</appartement>

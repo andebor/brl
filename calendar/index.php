@@ -21,8 +21,8 @@ include "../includes/head.php"; ?>
 
 <h4>Jan</h4>
 <ul>
-    <li>5. Lorem ipsum</li>
-    <li>17. eius fabellas recteque ius cu</li>
+    <li>5. Nyttårssamling</li>
+    <li>17. Diskusjonsmøte rundt ny fartsdump</li>
 </ul>
 </section>
 </div>
