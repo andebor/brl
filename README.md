@@ -34,14 +34,11 @@ Examples of use:
 - Site structure (by making a grid system)
 - Basic sitewide styling
 - Style form elements in /contact/
-- Style and CSS animation on "flip cards" in /about/board.php and 
-
-The styling of the "cards" used in /about/board.php was split into a separate file due to file length.
+- Style and CSS animation on "flip cards" in /about/board.php
 
 ###3. JavaScript
 
-JavaScript is used to manipulate the HTML code in our project. E.g. to make the
-drop-down lists in the navigation bar interactive. 
+JavaScript is used to manipulate the HTML code in our project.
 
 Examples of use:
 - The dropdown lists in the navigation menu expands when clicked
