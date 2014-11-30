@@ -21,7 +21,7 @@ End project for IT2805. The website can be seen in action at magasinvegen.anders
 
 ###1. HTML5
 
-HTML5 is used to structure our web site. 
+HTML5 is used to structure our web site.
 
 We use several HTML5 specific tags, such as "nav", "section" and "aside" as they are semantically better than just using divs.
 
@@ -74,7 +74,7 @@ Google Font is a huge collection of open source web fonts. We have imported
 the Open Sans-family in to our project from Google Fonts.
 
 ###9. Modernizr.js
-Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser. 
+Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.
 
 We use this on the "flip cards" in the board member section. Ideally, we want to use CSS to animate the card flip, but not all browsers support this CSS functionality.
 
@@ -91,3 +91,4 @@ To ensure that as many browsers as possible are supported, we detect if a users 
 6. http://jquery.com
 7. http://fontawesome.io
 8. http://www.google.com/fonts
+9. http://modernizr.com
