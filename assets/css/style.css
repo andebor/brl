@@ -19,6 +19,12 @@ html {
   padding: 15px 20px !important;
 }
 
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /* Grid system */
 .row:after {
@@ -149,6 +155,7 @@ nav .fa-chevron-down {
     box-shadow: 0 2px 4px rgba(0,0,0,0.15);
     position: relative;
     padding: 20px;
+    width: 100%;
 }
 
 .panel header {

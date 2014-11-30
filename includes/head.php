@@ -5,15 +5,15 @@
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/card.css">
   <title><?php echo $pageTitle ?> - Magasinvegen Borettslag</title>
 </head>
 <body>
-  <header class="clearfix">
+  <header>
     <div class="pagewrap">
       <span class="brand">Magasinvegen Borettslag</span>
 
-      <nav class="clearfix">
-
+      <nav>
         <ul class="nav navbar-nav">
           <li><a href="/"><i class="fa fa-home"></i></a></li>
           <li><a href="/calendar/">Kalender</a></li>
