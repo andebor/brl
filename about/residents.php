@@ -22,7 +22,7 @@ include "../includes/head.php"; ?>
       var xmlDoc=xmlhttp.responseXML;
       console.log(xmlDoc);
 
-      document.write('<table class="table residentsTable"><tr><th>Navn</th><th>Tlf</th><th>Mail</th><th>Bygg</th><th>Leilighet</th></tr>');
+      document.write('<table class="table residentsTable table-striped"><tr><th>Navn</th><th>Tlf</th><th>Mail</th><th>Bygg</th><th>Leilighet</th></tr>');
       var x=xmlDoc.getElementsByTagName("person");
       for (i=0;i<x.length;i++)
         {
