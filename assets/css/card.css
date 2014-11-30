@@ -95,20 +95,29 @@
 /* CARD FLIP ANIMATION */
 /* Flip the boxes using CSS3 */
 .csstransforms3d.csstransformspreserve3d .card {
-  perspective: 800px;
+  -webkit-perspective: 800px;
+      -ms-perspective: 800px;
+          perspective: 800px;
 }
 
 .csstransforms3d.csstransformspreserve3d .card .content {
-  transform-style: preserve-3d;
-  transition: 0.4s;
+  -webkit-transform-style: preserve-3d;
+      -ms-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+
+  -webkit-transition: 0.4s;
+          transition: 0.4s;
 }
 
 .csstransforms3d.csstransformspreserve3d .card .content.flipped {
-  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+      -ms-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
 }
 
 .csstransforms3d.csstransformspreserve3d .card .content .cardface {
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .csstransforms3d.csstransformspreserve3d .card .content .front {
@@ -116,6 +125,9 @@
 }
 
 .csstransforms3d.csstransformspreserve3d .card .content .back {
-  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+      -ms-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+
   z-index: 2;
 }
