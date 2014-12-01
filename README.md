@@ -1,7 +1,7 @@
 Magasinvegen Borettslag
 =======================
 
-End project for IT2805. The website can be seen in action at magasinvegen.andersborud.com.
+End project for IT2805. The website can be seen in action at http://magasinvegen.andersborud.com.
 
 ###To run the project:
 
